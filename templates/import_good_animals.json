@@ -7,7 +7,7 @@
 	},
   {
     "approvalGate":"MANUAL",
-    "release":"Relase-of-${animal}-${age}-year-old",
+    "release":"Relase-of-${animal}-${age}-year-old/age-${age}",
     "isApprovalRequired":false,
     "description":"Release Manager tests",
     "name":"Manual_Phase_${animal}",
