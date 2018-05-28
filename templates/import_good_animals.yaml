@@ -1,0 +1,25 @@
+{
+	"objects": [
+  {
+		"name": "Relase-of-${animal}-#${age}-year-old",
+		"version": "age-${age}",
+		"kind": "Release"
+	},
+  {
+    "approvalGate":"MANUAL",
+    "release":"Relase-of-${animal}-#${age}-year-old",
+    "isApprovalRequired":false,
+    "description":"Release Manager tests",
+    "name":"Manual_Phase_${animal}",
+    "kind":"Phase"
+  }
+  ],
+	"parameters": [{
+		"key": "animal",
+		"value": "pelican"
+	},
+  {
+		"key": "age",
+		"value": "10"
+	}]
+}
