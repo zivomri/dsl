@@ -36,8 +36,16 @@
 	{
 		"isDisabled": false,
 		"phase": "${animal} release/${age}/Phase A",
-		"name": "Manual Task1",
-		"kind": "Task"
+		"name": "task-color-${color}",
+		"kind": "Task",
+		"plugin": "Slack/1.0",
+		"endpoint": "Slack",
+		"parameters": {
+			"channel": "",
+			"message": "message1",
+			"username": "CDDirector"
+		},
+		"type": "Post message"
 	}],
 	"parameters": [{
 		"key": "animal",
@@ -46,5 +54,9 @@
 	{
 		"key": "age",
 		"value": "10"
+	},
+	{
+		"key": "color",
+		"value": "beige"
 	}]
 }
