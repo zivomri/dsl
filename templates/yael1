@@ -1,1 +1,36 @@
-
+{
+	"objects": [{
+		"application": "Local|An Application",
+		"name": "123.2556",
+		"kind": "ApplicationVersion"
+	},
+	{
+		"applicationVersions": ["Local|An Application/123.2556"],
+		"ownerParties": ["yaelcdd01@gmail.com",
+		"cddyael02@gmail.com"],
+		"version": "1",
+		"name": "${animal} release",
+		"kind": "Release"
+	},
+	{
+		"isApprovalRequired": false,
+		"approvalGate": "MANUAL",
+		"release": "${animal} release/1",
+		"name": "Phase A",
+		"kind": "Phase"
+	},
+	{
+		"isDisabled": false,
+		"phase": "${animal} release/1/Phase A",
+		"name": "Manual Task1",
+		"kind": "Task"
+	}],
+	"parameters": [{
+		"key": "animal",
+		"value": "Cat"
+	},
+	{
+		"key": "age",
+		"value": "10"
+	}]
+}
