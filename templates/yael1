@@ -1,0 +1,38 @@
+{
+	"objects": [{
+	"application": "Local|An Application",
+	"name": "1",
+	"kind": "ApplicationVersion"
+},
+{
+	"ownerParties": ["yaelcdd01@gmail.com"],
+	"applicationVersions": ["Local|An Application/1"],
+	"version": "1",
+	"description": "",
+	"name": "A release",
+	"kind": "Release"
+},
+{
+	"isApprovalRequired": false,
+	"approvalGate": "MANUAL",
+	"release": "A release/1",
+	"environments": ["QA Env"],
+	"name": "Phase A",
+	"kind": "Phase"
+},
+{
+	"applicationVersions": ["Local|An Application/1"],
+	"isDisabled": false,
+	"phase": "A release/1/Phase A",
+	"name": "Manual Task1",
+	"kind": "Task"
+}],
+"parameters": [{
+		"key": "animal",
+		"value": "pelican"
+	},
+	{
+		"key": "age",
+		"value": "10"
+	}]
+}
