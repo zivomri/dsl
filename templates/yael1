@@ -7,13 +7,13 @@
 	{
 		"isApprovalRequired": false,
 		"approvalGate": "MANUAL",
-		"release": "A release/1",
+		"release": "${animal} release/1",
 		"name": "Phase A",
 		"kind": "Phase"
 	},
 	{
 		"isDisabled": false,
-		"phase": "A release/1/Phase A",
+		"phase": "${animal} release/1/Phase A",
 		"name": "Manual Task1",
 		"kind": "Task"
 	}],
