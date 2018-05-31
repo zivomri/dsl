@@ -1,5 +1,22 @@
 {
 	"reference": {
 		"url": "https://raw.githubusercontent.com/cde-test-user/dsl/master/templates/yael/yael_import_release"
+	},
+	"parameters": [{
+		"key": "release_name",
+		"value": "Yael's new"
+	},
+	{
+		"key": "version",
+		"value": "10 the sequel"
+	},
+	{
+		"key": "task_name",
+		"value": "a task I wrote"
+	},
+	{
+		"key": "Token_2",
+		"value": "a_new_value_for_token_2"
+		}
+	]
 	}
-}
