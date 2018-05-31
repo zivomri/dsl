@@ -30,7 +30,17 @@
 		"isApprovalRequired": false,
 		"approvalGate": "MANUAL",
 		"release": "${animal} release/${age}",
+		"environments": ["QA"],
 		"name": "Phase A",
+		"kind": "Phase"
+	},
+	{
+		"isApprovalRequired": false,
+		"previousPhase": "Phase A",
+		"approvalGate": "AUTOMATIC",
+		"release": "${animal} release/${age}",
+		"environments": ["QA"],
+		"name": "Phase B",
 		"kind": "Phase"
 	},
 	{
@@ -46,6 +56,12 @@
 			"username": "CDDirector"
 		},
 		"type": "Post message"
+	},
+	{
+		"isDisabled": false,
+		"phase": "${animal} release/${age}/Phase B",
+		"name": "Manual1",
+		"kind": "Task"
 	}],
 	"parameters": [{
 		"key": "animal",
