@@ -8,19 +8,19 @@
 		"applicationVersions": ["Local|An Application/123.2556"],
 		"ownerParties": ["yaelcdd01@gmail.com",
 		"cddyael02@gmail.com"],
-		"version": "${age}",
-		"name": "${animal} release",
+		"version": "${version}",
+		"name": "${release_name} release",
 		"kind": "Release"
 	},
 	{
-		"release": "${animal} release/${age}",
+		"release": "${release_name} release/${version}",
 		"scope": "PHASE_SCOPE",
 		"value": "1111",
 		"name": "Token_1",
 		"kind": "ReleaseToken"
 	},
 	{
-		"release": "${animal} release/${age}",
+		"release": "${release_name} release/${version}",
 		"scope": "RELEASE_SCOPE",
 		"value": "${Token_2}",
 		"name": "Token_2",
@@ -29,7 +29,7 @@
 	{
 		"isApprovalRequired": false,
 		"approvalGate": "MANUAL",
-		"release": "${animal} release/${age}",
+		"release": "${release_name} release/${version}",
 		"environments": ["QA"],
 		"name": "Phase A",
 		"kind": "Phase"
@@ -38,15 +38,15 @@
 		"isApprovalRequired": true,
 		"previousPhase": "Phase A",
 		"approvalGate": "AUTOMATIC",
-		"release": "${animal} release/${age}",
+		"release": "${release_name} release/${version}",
 		"environments": ["QA"],
 		"name": "Phase B",
 		"kind": "Phase"
 	},
 	{
 		"isDisabled": false,
-		"phase": "${animal} release/${age}/Phase A",
-		"name": "task-color-${color}",
+		"phase": "${release_name} release/${version}/Phase A",
+		"name": "task-${task_name}",
 		"kind": "Task",
 		"plugin": "Slack/1.0",
 		"endpoint": "Slack",
@@ -59,21 +59,21 @@
 	},
 	{
 		"isDisabled": false,
-		"phase": "${animal} release/${age}/Phase B",
+		"phase": "${release_name} release/${version}/Phase B",
 		"name": "Manual1",
 		"kind": "Task"
 	}],
 	"parameters": [{
-		"key": "animal",
-		"value": "Cat"
+		"key": "release_name",
+		"value": "Yael's"
 	},
 	{
-		"key": "age",
+		"key": "version",
 		"value": "10"
 	},
 	{
-		"key": "color",
-		"value": "beige"
+		"key": "task_name",
+		"value": "a task in phase1"
 	},
 	{
 		"key": "Token_2",
