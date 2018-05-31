@@ -35,7 +35,7 @@
 		"kind": "Phase"
 	},
 	{
-		"isApprovalRequired": false,
+		"isApprovalRequired": true,
 		"previousPhase": "Phase A",
 		"approvalGate": "AUTOMATIC",
 		"release": "${animal} release/${age}",
