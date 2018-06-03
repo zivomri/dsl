@@ -1,0 +1,18 @@
+{
+		"parameters": [{
+		"key": "release_name",
+		"value": "Yael's"
+	},
+	{
+		"key": "version",
+		"value": "10"
+	},
+	{
+		"key": "task_name",
+		"value": "a task in phase1"
+	},
+	{
+		"key": "Token_2",
+		"value": "a_value_for_token_2"
+	}]
+}
