@@ -15,11 +15,11 @@
   }
   ],
 	"parameters": [{
-		"key": "animal",
+		"name": "animal",
 		"value": "pelican"
 	},
   {
-		"key": "age",
+		"name": "age",
 		"value": "10"
 	}]
 }
