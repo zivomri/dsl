@@ -9,6 +9,7 @@
 		"ownerParties": ["yaelcdd01@gmail.com",
 		"cddyael02@gmail.com"],
 		"version": "${version}",
+		"description": "<p>${description}</p>",
 		"name": "${release_name} release",
 		"kind": "Release"
 	},
@@ -66,6 +67,10 @@
 	"parameters": [{
 		"key": "release_name",
 		"value": "Yael's"
+	},
+	{
+		"key": "description",
+		"value": "a description here"
 	},
 	{
 		"key": "version",
