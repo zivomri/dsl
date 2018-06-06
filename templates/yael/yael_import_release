@@ -65,23 +65,23 @@
 		"kind": "Task"
 	}],
 	"parameters": [{
-		"key": "release_name",
+		"name": "release_name",
 		"value": "Yael's"
 	},
 	{
-		"key": "description",
+		"name": "description",
 		"value": "a description here"
 	},
 	{
-		"key": "version",
+		"name": "version",
 		"value": "10"
 	},
 	{
-		"key": "task_name",
+		"name": "task_name",
 		"value": "a task in phase1"
 	},
 	{
-		"key": "Token_2",
+		"name": "Token_2",
 		"value": "a_value_for_token_2"
 	}]
 }
