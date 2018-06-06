@@ -17,7 +17,7 @@
 		"value": "a new task"
 	},
 	{
-		"name": "Token_2",
+		"name": "task_name",
 		"value": "a_new_value_for_token_2"
 	}]
 }
