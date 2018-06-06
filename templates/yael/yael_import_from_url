@@ -5,19 +5,19 @@
 		"user": "cde-test-user"
 	},
 	"parameters": [{
-		"key": "release_name",
+		"name": "release_name",
 		"value": "Yael's new"
 	},
 	{
-		"key": "version",
+		"name": "version",
 		"value": "10 the sequel"
 	},
 	{
-		"key": "task_name",
+		"name": "task_name",
 		"value": "a new task"
 	},
 	{
-		"key": "Token_2",
+		"name": "Token_2",
 		"value": "a_new_value_for_token_2"
 	}]
 }
