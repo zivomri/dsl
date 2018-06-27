@@ -1,0 +1,11 @@
+[{
+		"application": "dsl-appa-18",
+		"name": "1",
+		"kind": "ApplicationVersion"
+	},
+	{
+		"name": "Relase-old-format",
+		"version": "2018",
+		"kind": "Release",
+		"applicationVersions": ["dsl-appa-15"]
+	}]
