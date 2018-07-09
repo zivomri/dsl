@@ -1,0 +1,17 @@
+{
+    "objects": [{
+        "environments": [],
+        "applications": [],
+        "description": "DSL test",
+        "name": "DSL_Import_From_repository_Rally_EP",
+        "kind": "Endpoint",
+        "type": "Rally Platform",
+        "parameters": {
+            "workspace": "CA Technologies",
+            "apikey": "_MuceU184SJGPfThTyhht4dPXyLJxfEkikhSbJT77PBM",
+            "useProxy": "false",
+            "url": "https://rally1.rallydev.com"
+        },
+        "plugin": "Rally Platform/2.2"
+    }]
+}
