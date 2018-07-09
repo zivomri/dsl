@@ -1,0 +1,26 @@
+{
+	"objects": [{
+		"name": "DSL_import_app1",
+		"kind": "Application"
+	},
+	{
+		"name": "DSL_import_app2",
+		"kind": "Application"
+	},
+	{
+		"applications": ["Local|DSL_import_app1",
+		"Local|DSL_import_app2"],
+		"name": "Env1",
+		"kind": "Environment"
+	},
+	{
+		"applications": ["Local|DSL_import_app2"],
+		"name": "Env4",
+		"kind": "Environment"
+	},
+	{
+		"applications": ["Local|DSL_import_app1"],
+		"name": "Env2",
+		"kind": "Environment"
+	}]
+}
