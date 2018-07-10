@@ -1,0 +1,13 @@
+{
+	"objects": [
+	{
+		"applications": ["Local|DSL_import_app1"],
+		"name": "prot_env1",
+		"kind": "Environment"
+	},
+	{
+		"applications": ["Local|DSL_import_app1"],
+		"name": "prot_env2",
+		"kind": "Environment"
+	}]
+}
